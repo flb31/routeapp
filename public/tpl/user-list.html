@@ -1,0 +1,16 @@
+<table>
+  <tr>
+    <th>-</th>
+    <th>-</th>
+    <th>Usuario</th>
+    <th>Nombre</th>
+    <th>Correo</th>
+  </tr>
+  <tr ng-repeat="item in dataUser" >
+    <td><a href="#/user/{{$index}}">Editar</a></td>
+    <td><a href="#/user/delete/{{$index}}">Eliminar</a></td>
+    <td>{{item.username}}</td>
+    <td>{{item.name}}</td>
+    <td>{{item.email}}</td>
+  </tr>
+</table>

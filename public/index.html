@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="routeapp" ng-controller="MainController">
+<head>
+  <meta charset="UTF-8">
+  <title>Ng Route Dinámico</title>
+</head>
+<body>
+  <ul>
+    <li><a href="#/user"> Registrar Usuario </a></li>
+    <li><a href="#/user/list"> Consultar Usuarios </a></li>
+  </ul>
+  <div ng-view></div>
+  <script src="https://code.angularjs.org/1.5.5/angular.min.js"></script>
+  <script src="https://code.angularjs.org/1.5.5/angular-route.min.js"></script>
+  <script src="js/controller.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/values.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

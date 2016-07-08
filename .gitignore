@@ -1,0 +1,8 @@
+#misc
+/.sass-cache
+npm-debug.log
+.DS_Store
+
+
+#dependences
+/node_modules
